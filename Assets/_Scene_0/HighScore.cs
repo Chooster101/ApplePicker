@@ -28,7 +28,7 @@ public class HighScore : MonoBehaviour {
         gt.text = "High Score: " + score;
         // Update the PlayerPrefs HighScore if necessary
         if (score > PlayerPrefs.GetInt("HighScore"))
-        {            // d
+        {           
             PlayerPrefs.SetInt("HighScore", score);
         }
     }
